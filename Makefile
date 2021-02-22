@@ -30,3 +30,6 @@ all:
 
 logs:
 	@echo `date +"%Y-%m-%d_%H-%M-%S" && $(CONVERTER_BIN) --version`
+
+git-commit-update:
+	git add . && git commit -m 'Update' 
