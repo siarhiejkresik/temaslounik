@@ -5,7 +5,7 @@ DZ_EXT='.dz'
 CONVERTER_BIN='./temaslounik'
 
 
-all:
+run:
 	@echo 'Пачатак.'
 	@echo '--------'
 
@@ -33,3 +33,6 @@ logs:
 
 git-commit-update:
 	git add . && git commit -m 'Update' 
+
+git-push:
+	git push
