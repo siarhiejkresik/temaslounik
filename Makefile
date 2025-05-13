@@ -31,8 +31,8 @@ run:
 logs:
 	@echo `date +"%Y-%m-%d_%H-%M-%S" && $(CONVERTER_BIN) --version`
 
-git-commit-update:
+commit:
 	git add . && git commit -m 'Update' 
 
-git-push:
+push:
 	git push
