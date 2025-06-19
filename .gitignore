@@ -1,6 +1,7 @@
 .mypy_cache/
 .vscode/
 old/
+temaslounik
 log
 temaslounik.dsl.dz
 temaslounik.zip
